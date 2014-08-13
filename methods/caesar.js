@@ -44,11 +44,3 @@ exports.decrypt = function(shift, message) {
 
   return arr.join('');
 };
-// exports.decrypt = function(shift, message) {
-//   var splitMsg = message.split('');
-//   var arr = [];
-//   for(var i = 0, l = splitMsg.length; i < l; i++) {
-//     arr.push(String.fromCharCode(splitMsg[i].charCodeAt() - shift));
-//   }
-//   return arr.join('');
-// };
