@@ -16,4 +16,4 @@ describe('#encrypt', function() {
     var decrypted = polyalphabetic.decrypt('dogs', encrypted);
     expect(decrypted).to.equal('ireallylikeelephants');
   });
-});;
+});

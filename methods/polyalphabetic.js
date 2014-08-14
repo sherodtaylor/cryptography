@@ -33,4 +33,4 @@ exports.decrypt = function(key, cipher) {
   }
 
   return res.join('');
-}
+};
