@@ -5,7 +5,7 @@ var should = chai.should;
 var assert = chai.assert;
 var expect = chai.expect;
 
-describe('#encrypt', function() {
+describe('#caesar', function() {
   it('should encrypt hi to jk with a shift of 2', function() {
     var encrypted = caesar.encrypt(2, 'hi');
     expect(encrypted).to.equal('jk');
